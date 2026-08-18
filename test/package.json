@@ -1,0 +1,13 @@
+{
+  "name": "hiit-timer-tests",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Smoke tests for the HIIT Timer PWA (runs the real app.js in jsdom).",
+  "scripts": {
+    "test": "node smoke.test.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^30.0.0"
+  }
+}

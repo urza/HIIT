@@ -1,0 +1,27 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "enabled_providers": ["vllm", "venice"],
+  "model": "vllm/smart-model",
+  "small_model": "vllm/smart-model",
+  "provider": {
+    "vllm": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Local vLLM",
+      "options": {
+        "baseURL": "http://10.0.0.67:8012/v1",
+        "apiKey": "dummy"
+      },
+      "models": {
+        "smart-model": {
+          "name": "Qwen3.8-27B NVFP4 (local)",
+          "tool_call": true,
+          "reasoning": true,
+          "limit": {
+            "context": 262144,
+            "output": 32768
+          }
+        }
+      }
+    }
+  }
+}
