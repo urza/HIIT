@@ -1,5 +1,7 @@
 # HIIT
-one shot HIIT timer PWA app by Qwen 3.8 27B
+One-shot HIIT timer PWA app by Qwen 3.8 27B
+
+https://urza.github.io/HIIT/
 
 ## prompt
 
